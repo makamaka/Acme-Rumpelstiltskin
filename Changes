@@ -1,0 +1,9 @@
+Revision history for Perl extension Acme::Rumpelstiltskin.
+
+0.20  
+	- cleaned up code.
+
+0.01  Fri Oct 27 15:52:31 2006
+	- original version; created by h2xs 1.23 with options
+		-AX -n Acme::Rumpelstiltskin
+
