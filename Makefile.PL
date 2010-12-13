@@ -52,6 +52,9 @@ sub make_file {
     $content =~ s/package Acme::Rumpelstiltskin;/package Acme::$name;/;
     $name .= '.pm';
 
+    mkdir 'lib'      unless -d 'lib';
+    mkdir 'lib/Acme' unless -d 'lib/Acme';
+
     open(FILE, ">lib/Acme/$name") or die "$! $name";
     print FILE $content;
     close(FILE);
