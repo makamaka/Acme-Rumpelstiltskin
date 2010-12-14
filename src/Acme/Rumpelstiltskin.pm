@@ -5,7 +5,7 @@ use strict;
 our $VERSION = '0.02';
 
 
-die "Why do you know my name?" if __PACKAGE__ eq 'Acme::Rumpelstiltskin';
+die "How do you know my name?" if __PACKAGE__ eq 'Acme::Rumpelstiltskin';
 
 1;
 __END__
