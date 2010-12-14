@@ -9,8 +9,7 @@ open(FILE, "src/Acme/Rumpelstiltskin.pm") or die $!;
 my $ORG_CONTENT = join('', <FILE>);
 close(FILE);
 
-=pod
-
+my $obj = Acme::Rumpelstiltskin::Song->new( [
     [qw/R L/],
     [qw/u a/],
     [qw/m n/],
@@ -20,12 +19,6 @@ close(FILE);
     [qw/l lu ru/],
     [qw/s ts st/],
     [qw/kin/],
-
-=cut
-
-my $obj = Acme::Rumpelstiltskin::Song->new( [
-    [qw/Rumpelstil/],
-    [qw/tskin skin/],
 ] );
 
 $obj->start(\&make_file);

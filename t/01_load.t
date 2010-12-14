@@ -6,8 +6,15 @@ use Acme::Rumpelstiltskin::Song;
 BEGIN {
 
 my $obj = Acme::Rumpelstiltskin::Song->new( [
-    [qw/Rumpelstil/],
-    [qw/tskin skin/],
+    [qw/R L/],
+    [qw/u a/],
+    [qw/m n/],
+    [qw/pe/],
+    [qw/l lu ru/],
+    [qw/ste sti/],
+    [qw/l lu ru/],
+    [qw/s ts st/],
+    [qw/kin/],
 ], { exclude => 'Rumpelstiltskin' } );
 
 $obj->start(sub {
