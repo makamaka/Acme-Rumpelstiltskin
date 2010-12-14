@@ -2,6 +2,6 @@ Changes
 Makefile.PL
 MANIFEST
 README
-t/1.t
+t/01_load.t
 src/Acme/Rumpelstiltskin.pm
 src/Acme/Rumpelstiltskin/Song.pm
